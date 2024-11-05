@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ALert = ({ type, text }) => {
+const Alert = ({ type, text }) => {
   return (
     <div className="absolute top-10 right-0 left-0 flex justify-center items-center">
       <div
@@ -17,4 +17,4 @@ const ALert = ({ type, text }) => {
   );
 };
 
-export default ALert;
+export default Alert;
