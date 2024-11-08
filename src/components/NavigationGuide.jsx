@@ -5,7 +5,7 @@ export default function NavigationGuide() {
 
       useEffect(() => {
   //   Hide buttons after 7 seconds
-    const timer = setTimeout(() => setShowButtons(false), 5000);
+    const timer = setTimeout(() => setShowButtons(false), 10000);
     return () => clearTimeout(timer);
       }, []);
 
