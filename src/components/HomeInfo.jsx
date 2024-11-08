@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { arrow } from '../assets/icons';
+import NavigationGuide from './NavigationGuide';
 
 const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box w-4/6 md:w-1/3">
@@ -14,10 +15,13 @@ const InfoBox = ({ text, link, btnText }) => (
 
 const renderContent = {
   1: (
-    <h1 className="sm:text-md sm:leading-snug text-center neo-brutalism-blue py-3 md:py-4 text-white px-5">
-      Hi, we are the <span className="font-semibold">UBUNTU KNIGHTS</span> 👋🏾{' '}
-      <br /> A think tank in the Sept24 intake, Cohort10
-    </h1>
+    <>
+      <h1 className="sm:text-md sm:leading-snug text-center neo-brutalism-blue py-3 md:py-4 text-white px-5">
+        Hi, we are the <span className="font-semibold">UBUNTU KNIGHTS</span> 👋🏾{' '}
+        <br /> A think tank in the Sept24 intake, Cohort10
+      </h1>
+      <NavigationGuide/>
+    </>
   ),
   2: (
     <InfoBox
