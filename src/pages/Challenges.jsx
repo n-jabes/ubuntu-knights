@@ -43,7 +43,7 @@ const Challenges = () => {
                       <img
                         src={challenge.icon}
                         alt={challenge.company_name}
-                        className="w-[60%] h-[60%] object-contain"
+                        className="w-[90%] h-[90%] object-contain"
                       />
                     </div>
                   }

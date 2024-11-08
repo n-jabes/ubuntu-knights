@@ -20,21 +20,21 @@ const renderContent = {
         Hi, we are the <span className="font-semibold">UBUNTU KNIGHTS</span> 👋🏾{' '}
         <br /> A think tank in the Sept24 intake, Cohort10
       </h1>
-      <NavigationGuide/>
+      <NavigationGuide />
     </>
   ),
   2: (
     <InfoBox
       text="From different backgrounds to a great team with a shared mission"
       link="/about"
-      btnText="Learn more"
+      btnText="Learn About Us"
     />
   ),
   3: (
     <InfoBox
       text="We involved in activities/E-Lab challenges which helped us make impact in our communities"
       link="/challenges"
-      btnText="View portfolio"
+      btnText="View All Challenges"
     />
   ),
   4: (

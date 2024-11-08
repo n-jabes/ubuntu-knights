@@ -26,7 +26,14 @@ import {
   typescript,
 } from '../assets/icons';
 
-import { introduction, help, discover } from '../assets/images';
+import {
+  introduction,
+  help,
+  discover,
+  hunt,
+  digital,
+  launch,
+} from '../assets/images';
 
 export const skills = [
   {
@@ -139,6 +146,36 @@ export const challenges = [
     iconBg: '#b7e4c7',
     link: 'https://youtu.be/faWieDRw2z8?si=dYjfn448asBico0x',
     date: 'Oct 3 - Oct 19',
+    description:
+      "In this challenge we got to talk about our selves, give an introduction to what drives and get to know each other's strenghts and weaknesses.",
+  },
+  {
+    title: 'Hunt for Treasure',
+    company_name: 'Challenge 04',
+    icon: hunt,
+    iconBg: '#a2d2ff',
+    link: 'https://youtu.be/WeKlxf1WrOo?si=uA4lp8QmSlHc0b3k',
+    date: ' Oct 18 - Oct 29',
+    description:
+      "In this challenge we got to talk about our selves, give an introduction to what drives and get to know each other's strenghts and weaknesses.",
+  },
+  {
+    title: 'Launching Our Mission V2',
+    company_name: 'Challenge 05',
+    icon: launch,
+    iconBg: '#accbe1',
+    link: 'https://youtu.be/HWv0xsMMAh8?feature=shared',
+    date: ' Oct 24 - Nov 5',
+    description:
+      "In this challenge we got to talk about our selves, give an introduction to what drives and get to know each other's strenghts and weaknesses.",
+  },
+  {
+    title: 'Our Digital Print',
+    company_name: 'Challenge 06',
+    icon: digital,
+    iconBg: '#fbc3bc',
+    link: 'https://youtu.be/HWv0xsMMAh8?feature=shared',
+    date: '  Sep 23 - Nov 9',
     description:
       "In this challenge we got to talk about our selves, give an introduction to what drives and get to know each other's strenghts and weaknesses.",
   },
