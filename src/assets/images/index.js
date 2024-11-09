@@ -16,6 +16,7 @@ import owen from './owen.jfif';
 import evans from './evans.jfif';
 import denzel from './denzel.jfif';
 import challenge from './challenge.gif';
+import challenge6 from './challenge6.jfif';
 import opportunity from './opportunity.gif';
 
 export {
@@ -37,5 +38,6 @@ export {
   evans,
   denzel,
   challenge,
+  challenge6,
   opportunity,
 };

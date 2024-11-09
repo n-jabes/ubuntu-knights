@@ -6,6 +6,7 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { challenges } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Challenges = () => {
   return (
@@ -31,7 +32,7 @@ const Challenges = () => {
           <VerticalTimeline>
             {challenges.map((challenge) => {
               const embedUrl = challenge.link
-                .replace('youtu.be', 'youtube.com/embed')
+                ?.replace('youtu.be', 'youtube.com/embed')
                 .split('?')[0];
 
               return (
@@ -79,6 +80,18 @@ const Challenges = () => {
                         className="w-full h-full rounded-md shadow-lg"
                       ></iframe>
                     </div>
+                  )}
+
+                  {challenge.img && (
+                    <Link to="/">
+                      <div className="w-full h-[200px] rounded-md shadow-lg">
+                        <img
+                          src={challenge.img}
+                          alt="challenge"
+                          className="w-full h-full object-cover cursor-pointer"
+                        />
+                      </div>
+                    </Link>
                   )}
 
                   {/* Description */}
