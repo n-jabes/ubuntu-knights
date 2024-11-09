@@ -4,6 +4,7 @@ import { arrow } from '../assets/icons';
 
 import { projects, socialLinks, experiences, skills } from '../constants';
 import CTA from '../components/CTA';
+import Team from '../components/Team';
 
 const About = () => {
   return (
@@ -95,6 +96,8 @@ const About = () => {
           </div>
         ))}
       </div>
+
+      <Team />
       <hr className="border-slate-200" />
       <CTA />
     </section>

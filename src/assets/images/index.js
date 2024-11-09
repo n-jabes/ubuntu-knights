@@ -10,6 +10,11 @@ import discover from './discover.png';
 import hunt from './hunt.png';
 import digital from './digital.png';
 import launch from './launch.png';
+import jabes from './jabes.jpeg';
+import naillah from './naillah.jfif';
+import owen from './owen.jfif';
+import evans from './evans.jfif';
+import denzel from './denzel.jfif';
 
 export {
   hero,
@@ -24,4 +29,9 @@ export {
   hunt,
   launch,
   digital,
+  jabes,
+  naillah,
+  owen,
+  evans,
+  denzel,
 };
