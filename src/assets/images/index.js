@@ -15,6 +15,8 @@ import naillah from './naillah.jfif';
 import owen from './owen.jfif';
 import evans from './evans.jfif';
 import denzel from './denzel.jfif';
+import challenge from './challenge.gif';
+import opportunity from './opportunity.gif';
 
 export {
   hero,
@@ -34,4 +36,6 @@ export {
   owen,
   evans,
   denzel,
+  challenge,
+  opportunity,
 };

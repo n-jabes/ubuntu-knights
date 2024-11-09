@@ -9,22 +9,22 @@ import { twitter, linkedin, github } from '../assets/icons';
 const teamMembers = [
   {
     name: 'Nshuti Jabes',
-    role: 'Web Analyst',
+    role: 'Team Lead',
     imgSrc: jabes,
     description:
-      'Nshuti is a passionate web analyst, focused on delivering high-quality analysis and web solutions.',
+      'I bring our team’s ideas together, making sure we’re aligned and working toward the best solutions for job creation through arts, culture, and design.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/jabes',
       twitter: 'https://twitter.com/jabes',
-      github: 'https://github.com/jabes',
+      github: 'https://github.com/n-jabes',
     },
   },
   {
     name: 'Ineza Naillah',
-    role: 'UI/UX Designer',
+    role: 'Operations Coordinator',
     imgSrc: naillah,
     description:
-      'Ineza is a creative UI/UX designer, enhancing user experiences with a keen eye for design.',
+      'I organize our findings and structure them into clear, meaningful presentations and reports for our final deliverables.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/naillah',
       twitter: 'https://twitter.com/naillah',
@@ -33,10 +33,10 @@ const teamMembers = [
   },
   {
     name: 'Ally Denzel',
-    role: 'Front-End Web Developer',
+    role: 'Lead Researcher',
     imgSrc: denzel,
     description:
-      'Ally specializes in front-end development, building seamless, interactive websites.',
+      'I gather and analyze data to back up our strategies, ensuring we make informed decisions based on facts and trends.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/denzel',
       twitter: 'https://twitter.com/denzel',
@@ -45,10 +45,10 @@ const teamMembers = [
   },
   {
     name: 'Evans Ndahiro',
-    role: 'Back-End Web Developer',
+    role: 'Creative Director',
     imgSrc: evans,
     description:
-      'Evans is a back-end developer with expertise in databases, server management, and APIs.',
+      'I design the visuals and presentations, ensuring our ideas are creatively expressed and resonate with our audience.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/evans',
       twitter: 'https://twitter.com/evans',

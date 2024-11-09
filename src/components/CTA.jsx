@@ -5,10 +5,12 @@ const CTA = () => {
   return (
     <section className="cta">
       <p>
-        Have a project in mind? <br className="sm:block hidden" /> Let's build
-        something together!
+        You have any feedback for us? <br className="sm:block hidden" /> Help us
+        make meaningful impact to the African society!
       </p>
-      <Link to='/contact' className='btn'>Contact</Link>
+      <Link to="/contact" className="btn">
+        Contact
+      </Link>
     </section>
   );
 };

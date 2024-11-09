@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <header className="header">
+    <header className="header font-poppins">
       <NavLink
         to="/"
         className="w-40 h-10 flex bg-white rounded-lg items-center justify-center shadow-md"
