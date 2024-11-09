@@ -48,7 +48,7 @@ export const challenges = [
       "The youth is our future so to have a bright future we start by empowering youth through education.Teaching kids in a community can significantly improve their quality of life by equipping them with skills. Additionally,instilling values of empathy and cooperation can foster a sense of community and belonging.",
   },
   {
-    title: 'Hunt for Treasure',
+    title: 'Treasure Hunt',
     company_name: 'Challenge 04',
     icon: hunt,
     iconBg: '#a2d2ff',
