@@ -57,10 +57,10 @@ const teamMembers = [
   },
   {
     name: 'Owen Muhoozi',
-    role: 'Back-End Web Developer',
+    role: 'Innovation Lead',
     imgSrc: owen,
     description:
-      'Owen is skilled in server-side technologies and works to optimize the back-end systems.',
+      'I am te idea generator, always pushing for new, creative',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/owen',
       twitter: 'https://twitter.com/owen',
