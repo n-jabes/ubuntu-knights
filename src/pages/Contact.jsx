@@ -24,10 +24,13 @@ const Contact = () => {
     e.preventDefault();
     setIsLoading(true);
     setCurrentAnimation('hit');
+    const serviceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        serviceId,
+        templateId,
         {
           from_name: form.name,
           to_name: 'Ubuntu Knights Think Tank',
@@ -35,7 +38,7 @@ const Contact = () => {
           to_email: 'nshutij7@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        publicKey
       )
       .then(() => {
         setIsLoading(false);
@@ -46,7 +49,7 @@ const Contact = () => {
         });
 
         setTimeout(() => {
-          hideAlert()
+          hideAlert();
           setForm({ name: '', email: '', message: '' });
           setCurrentAnimation('idle');
         }, [3000]);
@@ -65,7 +68,7 @@ const Contact = () => {
 
   return (
     <section className="flex lg:flex-row flex-col max-container h-[100vh]">
-      {alert.show && <Alert {...alert}/>}
+      {alert.show && <Alert {...alert} />}
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in touch</h1>
         <form
